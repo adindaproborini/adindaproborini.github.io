@@ -97,6 +97,64 @@ a:active {
 }
 /* End Menu Primer */
 
+/* Start Slider */
+.{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.body{
+    margin: 0 auto;
+    width: 70%;
+}
+.slider{
+    overflow: hidden;
+}
+.slider figure div{
+    float: left;
+    width: 20%;
+}
+.slider figure img{
+    float: left;
+    width: 45%;   
+}
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0px;
+    left: 0;
+    animation: 15s ravi infinite;
+}
+@keyframes ravi{
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
 /* Start Heading */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
@@ -237,7 +295,6 @@ h6 {
     padding: 10px 20px;
     color: rgb(39, 36, 36);
 }
-
 .menu-sekunder h4{
     font-size: 14px;
     margin: 0 auto;
